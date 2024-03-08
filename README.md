@@ -9,7 +9,7 @@ Siga as etapas abaixo para configurar e executar o projeto frontend GeoService l
 1. Clone o Projeto:
 
     ```bash
-    git clone https://github.com/seu-usuario/react-geoservice-frontend.git
+    git clone https://github.com/Paulocesar90/Geoservice-Front.git
     cd react-geoservice-frontend
     ```
 
