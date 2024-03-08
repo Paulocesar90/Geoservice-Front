@@ -1,0 +1,101 @@
+/* Estilos para o contêiner principal */
+.container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff; /* Cor do texto branco */
+}
+
+/* Estilos para o grupo de entrada e botão */
+.input-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para o campo de entrada de texto */
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilos para o botão de busca */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos quando o cursor passa sobre o botão */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o contêiner de resultados */
+.result-container {
+  text-align: left;
+}
+
+/* Adiciona estilo de fonte para os resultados */
+.result-container .data-hora-consulta {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos de fonte para os resultados */
+.result-container .formatted-address,
+.result-container .location {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para cabeçalhos h1 e h2 */
+h1 {
+  font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto ao h1 */
+  color: #0c0101; /* Cor do texto branco */
+  margin-bottom: 10px; /* Espaçamento inferior entre os elementos h1 */
+}
+ h2 {
+  font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto ao h1 */
+  color: #180404; /* Cor do texto branco */
+  margin-bottom: 10px; /* Espaçamento inferior entre os elementos h1 */
+ }
+
+ /* Estilos para o corpo da página */
+ body {
+  background-color: #77b8b4; /* Cor verde-água para o fundo do corpo da página */
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para o texto no rodapé */
+.footer-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Estilos para o ícone do GitHub no rodapé */
+.github-icon {
+  font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+  color: #fff; /* Cor branca */
+  margin-right: 5px; /* Espaçamento à direita do ícone */
+}
